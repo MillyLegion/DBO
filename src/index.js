@@ -5,7 +5,8 @@ import { BrowserRouter } from 'react-router-dom';
 
 import './index.css';
 import App from './App';
-
+import "./assets/fonts/RFDewiExpanded-Black.woff";
+import "./assets/fonts/RFDewiExpanded-Black.woff2";
 
 ReactDOM.render(
   <BrowserRouter>

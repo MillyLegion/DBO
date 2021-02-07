@@ -1,16 +1,36 @@
+// @font-face {
+//   font-family: 'RFDewiExpanded-Black', sans-serif;
+//   src: local('RFDewiExpanded-Black') url('../../assets//fonts//RFDewiExpanded-Black.woff2') format('woff2'),
+//        local('RFDewiExpanded-Black') url('../../assets/fonts//RFDewiExpanded-Black.woff') format('woff');
+//   font-weight: 700;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
 .header {
   display: flex;
   justify-content: space-between;
   width: 100%;
   min-height: 60px;
   background-color: #fff;
+  box-shadow: 0px 1px 0px #E3E8F0;
+  position: relative;
+  z-index: 2;
 
   .header_logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    .logo {
+      padding-left: 24px;
+      padding-right: 8px;
+    }
 
     .logo_title {
+      padding-left: 7px;
+      border-left: 1px solid #E3E8F0;
+      font-size: 12px;
       font-family: 'RFDewiExpanded-Black', sans-serif;
     }
   }
