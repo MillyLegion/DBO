@@ -10,13 +10,13 @@ $secondary: #F5F7FA;
 
 .nav {
   padding-top: 12px;
-  width: 232px;
+  min-width: 232px;
   background-color: #fff;
   font-size: 14px;
 
   .line {
     width: 200px;
-    text-align: center;
+    // text-align: center;
   }
 
   .nav_title {

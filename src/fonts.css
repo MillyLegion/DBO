@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'RFDewiExpanded-Black', sans-serif;
-  src: url('./assets//fonts//RFDewiExpanded-Black.woff2') format('woff2'),
-       url('./assets/fonts//RFDewiExpanded-Black.woff') format('woff');
-  font-weight: 700;
+  src: url(./fonts//RFDewiExpanded-Black.woff2) format('woff2'),
+       url(./fonts//RFDewiExpanded-Black.woff) format('woff');
+  /* font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-display: swap; */
 }
